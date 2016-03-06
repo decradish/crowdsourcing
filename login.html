@@ -19,13 +19,20 @@
 	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </head>
-<body>
-<div class="wrapper">
-	<header>
-		<a href="/" class="logo" title="引水鱼科技">引水鱼科技</a>
+<body class="login_page">
+<div class="login_wrapper">
+	<h1>引水鱼科技兼职管理平台</h1>
+	<div class="login_item">
+		<input type="text" name="email" id="email" placeholder="请输入您的邮箱">
+		<div class="msg"><span>邮箱不存在</span></div>
+	</div><!-- /.login_item -->
 
-		<div class="header_right"></div>
-	</header>
-</div><!-- /.wrapper -->
+	<div class="login_item error">
+		<input type="text" name="email" id="email" placeholder="请输入您的邮箱">
+		<div class="msg"><span>邮箱不存在</span></div>
+	</div><!-- /.login_item -->
+
+	<input type="submit" class="btn" value="下一步">
+</div><!-- /.login_wrapper -->
 </body>
 </html>
